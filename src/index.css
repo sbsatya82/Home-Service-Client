@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding-top: 64px; /* Height of the fixed Navbar */
+  padding-bottom: 64px; /* Height of the fixed Footer */
+}
