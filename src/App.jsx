@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
 import BookingPage from './pages/BookingPage';
 import TokenPage from './pages/TokenPage';
+import ServicePage from './pages/ServicePage';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<HomePage/>} />
           <Route path="services" element={<ServicesPage/>} />
+          <Route path="service/:id" element={<ServicePage/>} />
           <Route path="booking" element={<BookingPage/>} />
           <Route path="token" element={<TokenPage/>} />
         </Route>
